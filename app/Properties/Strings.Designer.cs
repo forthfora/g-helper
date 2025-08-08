@@ -882,6 +882,24 @@ namespace GHelper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Remaining.
+        /// </summary>
+        internal static string EstimatedBatteryRemaining {
+            get {
+                return ResourceManager.GetString("EstimatedBatteryRemaining", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To Full.
+        /// </summary>
+        internal static string EstimatedToFullBattery {
+            get {
+                return ResourceManager.GetString("EstimatedToFullBattery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Export Profile.
         /// </summary>
         internal static string Export {
